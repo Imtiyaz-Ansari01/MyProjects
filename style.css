@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(30, 42, 53);
+    color: azure;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.choice{
+    height: 160px;
+    width: 160px;
+    /* object-fit: cover; */
+    /* align-items: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+.choice:hover{
+    cursor: pointer;
+    background-color: rgb(42, 6, 55);
+
+}
+
+.choices{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 7rem;
+}
+
+img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+}
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 10rem;
+}
+
+
+#user-score, #comp-score{
+    font-size: 5rem;
+}
+
+.msg-container {
+    display: inline-block;
+    padding: .5rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    border: 5px solid transparent; 
+    background-color: lightblue;   
+    box-sizing: border-box; 
+    transition: border-color 0.3s; 
+}
+
+#reset-btn{
+    background-color: #04122d; /* Green background */
+    border: none; /* Remove borders */
+    color: rgb(229, 254, 231); /* White text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the container an inline-block */
+    font-size: 1.5rem; /* Increase font size */
+    margin: 3rem; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px;
+    float: right;
+    margin-right: 15%;
+}
